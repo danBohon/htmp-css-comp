@@ -1,0 +1,33 @@
+#box {
+  background: red;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: 10px dotted rgb(73, 255, 73);
+  margin: 50px;
+  padding: 50px;
+}
+
+#float {
+  background: blueviolet;
+  width: 200px;
+  height: 200px;
+  display: block;
+  float: right;
+}
+
+#font {
+  background-image: url("fluffy-cat.jpeg");
+  width: 220px;
+  height: 225px;
+  font-weight: 900;
+  color: rgb(0, 255, 255);
+  font-size: 28px;
+}
+
+.position {
+  background: grey;
+  width: 350px;
+  height: 200px;
+  margin: 100px;
+}
