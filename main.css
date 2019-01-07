@@ -31,3 +31,46 @@
   height: 200px;
   margin: 100px;
 }
+
+div > h1 {
+  height: 50px;
+  width: 200px;
+  background: aqua;
+  position: relative;
+  left: 150px;
+}
+
+div > h2 {
+  height: 50px;
+  width: 200px;
+  background: aqua;
+  position: fixed;
+  top: 700px;
+}
+
+div div {
+  height: 50px;
+  width: 200px;
+  background: aqua;
+  position: absolute;
+}
+
+#flex {
+  height: 400px;
+  width: 800px;
+  background: olivedrab;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.box {
+  display: block;
+  height: 80px;
+  width: 200px;
+  background: orange;
+  border: 2px solid black;
+  margin: 20px;
+}

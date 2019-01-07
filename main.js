@@ -1,0 +1,1 @@
+const thisAlsoIs = "Also JavaScript";
